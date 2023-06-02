@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 67.5%;
   box-sizing: border-box;
 }
 
@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  background-image: linear-gradient(to top left, #1a194a 0%, #705ad3 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,7 +45,6 @@ main {
   transition: all 0.75s;
 }
 
-/* ELEMENTS */
 .name {
   position: relative;
   font-size: 4rem;
@@ -59,7 +58,7 @@ main {
 .score {
   font-size: 8rem;
   font-weight: 300;
-  color: #c7365f;
+  color: #4068ba;
   margin-bottom: auto;
 }
 
@@ -78,7 +77,7 @@ main {
 }
 
 .current {
-  background-color: #c7365f;
+  background-color: #4a97c4;
   opacity: 0.8;
   border-radius: 9px;
   color: #fff;
@@ -99,7 +98,6 @@ main {
   font-size: 3.5rem;
 }
 
-/* ABSOLUTE POSITIONED ELEMENTS */
 .btn {
   position: absolute;
   left: 50%;
@@ -141,7 +139,7 @@ main {
 
 .btn:active {
   transform: translate(-50%, 3px);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
 }
 
 .btn:focus {
@@ -151,10 +149,10 @@ main {
 .dice {
   position: absolute;
   left: 50%;
-  top: 16.5rem;
+  top: 18.5rem;
   transform: translateX(-50%);
   height: 10rem;
-  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2rem 5rem rgba(0, 0.7, 0, 0.7);
 }
 
 .player--winner {

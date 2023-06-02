@@ -26,4 +26,4 @@ If you get the dice of 1, your current score will reset and chance would go to t
 
 <br>
 
-![image](https://github.com/PoulavBhowmick03/DiceGame/assets/133862694/cadb7662-8351-46a7-867c-c29889b467a7)
+![image](https://github.com/PoulavBhowmick03/DiceGame/assets/133862694/79753be2-7a3a-459a-8608-d7ae42011593)
